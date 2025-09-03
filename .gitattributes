@@ -1,0 +1,7 @@
+# Normalize all files to LF in repo
+* text=auto
+
+# Force specific types
+*.java text eol=lf
+*.sh   text eol=lf
+*.bat  text eol=crlf
