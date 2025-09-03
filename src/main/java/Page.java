@@ -6,6 +6,9 @@ import java.util.List;
 
 // page_url = about:blank?wi_0
 public class Page {
+    @FindBy(xpath = "//*[@id='twotabsearchtextbox']")
+    public WebElement inputFieldKeywords;
+
     public Page(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
